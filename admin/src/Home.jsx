@@ -7,6 +7,7 @@ import
  import { BsBoxSeam } from "react-icons/bs";
  import { MdOutlineEditCalendar } from "react-icons/md";
  import { FaRegListAlt } from "react-icons/fa";
+ import { FaUser } from "react-icons/fa";
 
 function Home() {
      
@@ -35,7 +36,7 @@ function Home() {
             <div className='card'>
                 <div className='card-inner'>
                     <h3>REGISTERED CUSTOMERS</h3>
-                    <BsPeopleFill className='card_icon'/>
+                    <FaUser className='card_icon'/>
                 </div>
                 <h1>33</h1>
             </div>

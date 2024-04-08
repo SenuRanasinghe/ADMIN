@@ -21,7 +21,7 @@ function Header({ OpenSidebar }) {
             placeholder='Search...'
             value={searchQuery}
             onChange={handleSearchChange}
-            style={{ width: '40cm', height: '1cm' }} // Inline styles for width and height
+            style={{ marginLeft: '15px', width: '10cm', height: '1cm',borderRadius: '18px'}} // Inline styles for the search bar
           />
         </div>
       </div>

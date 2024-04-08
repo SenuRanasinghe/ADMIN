@@ -9,6 +9,7 @@ import
  import { MdOutlineEditCalendar } from "react-icons/md";
  import { FaRegListAlt } from "react-icons/fa";
  import LOGO1 from "./Images/LOGO1.png";
+ import { FaUser } from "react-icons/fa";
 
 function Sidebar({openSidebarToggle, OpenSidebar}) {
   return (
@@ -28,7 +29,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsPeopleFill className='icon'/> User Accounts
+                    <FaUser className='icon'/> User Accounts
                 </a>
             </li>
             <li className='sidebar-list-item'>
